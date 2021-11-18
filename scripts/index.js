@@ -336,11 +336,11 @@ window.onload=function () {
 			dataPoints: [
 				{ label: "Insertion Sort",  y: 0.19  },
 				{ label: "Bubble Sort", y: 0.2  },
-				{ label: "Selection Sort", y: 0.1  },
-				{ label: "Merge Sort",  y: 0.2  },
-				{ label: "Heap Sort",  y: 0.3  },
-				{ label: "Quick Sort",  y: 0.3  },
-				{ label: "3 Way Quick Sort",  y: 0.5  }
+				{ label: "Selection Sort", y: 0.2  },
+				{ label: "Merge Sort",  y: 0.19  },
+				{ label: "Heap Sort",  y: 0.2  },
+				{ label: "Quick Sort",  y: 0.1  },
+				{ label: "3 Way Quick Sort",  y: 0.1  }
 				
 			]
 		}
@@ -358,11 +358,11 @@ window.onload=function () {
 			dataPoints: [
 				{ label: "Insertion Sort",  y: 0.3  },
 				{ label: "Bubble Sort", y: 0.4  },
-				{ label: "Selection Sort", y: 0.5  },
-				{ label: "Merge Sort",  y: 0.4 },
-				{ label: "Heap Sort",  y: 0.29  },
-				{ label: "Quick Sort",  y: 0.39  },
-				{ label: "3 Way Quick Sort",  y: 0.19  }
+				{ label: "Selection Sort", y: 0.8  },
+				{ label: "Merge Sort",  y: 0.6 },
+				{ label: "Heap Sort",  y: 0.4  },
+				{ label: "Quick Sort",  y: 0.4  },
+				{ label: "3 Way Quick Sort",  y: 0.5  }
 			]
 		}
 		]
@@ -382,11 +382,11 @@ window.onload=function () {
          dataPoints: [
             { label: "Insertion Sort",  y: 0.19  },
 				{ label: "Bubble Sort", y: 0.2  },
-				{ label: "Selection Sort", y: 0.1  },
-				{ label: "Merge Sort",  y: 0.2  },
-				{ label: "Heap Sort",  y: 0.3  },
-				{ label: "Quick Sort",  y: 0.3  },
-				{ label: "3 Way Quick Sort",  y: 0.5  }
+				{ label: "Selection Sort", y: 0.2  },
+				{ label: "Merge Sort",  y: 0.19  },
+				{ label: "Heap Sort",  y: 0.2  },
+				{ label: "Quick Sort",  y: 0.1  },
+				{ label: "3 Way Quick Sort",  y: 0.1  }
          ]
        },
        { //dataSeries - second quarter
@@ -395,12 +395,12 @@ window.onload=function () {
         name: "Avg. Input Size", 
         showInLegend:true,               
         dataPoints: [
-            { label: "Insertion Sort",  y: 0.2  },
+            { label: "Insertion Sort",  y: 0.3  },
             { label: "Bubble Sort", y: 0.3  },
-            { label: "Selection Sort", y: 0.1  },
+            { label: "Selection Sort", y: 0.2  },
             { label: "Merge Sort",  y: 0.4  },
             { label: "Heap Sort",  y: 0.2  },
-            { label: "Quick Sort",  y: 0.2  },
+            { label: "Quick Sort",  y: 0.3  },
             { label: "3 Way Quick Sort",  y: 0.4  }
         ]
       },
@@ -410,12 +410,12 @@ window.onload=function () {
         showInLegend:true,                
         dataPoints: [
             { label: "Insertion Sort",  y: 0.3  },
-				{ label: "Bubble Sort", y: 0.4  },
-				{ label: "Selection Sort", y: 0.5  },
-				{ label: "Merge Sort",  y: 0.4 },
-				{ label: "Heap Sort",  y: 0.29  },
-				{ label: "Quick Sort",  y: 0.39  },
-				{ label: "3 Way Quick Sort",  y: 0.19  }
+            { label: "Bubble Sort", y: 0.4  },
+            { label: "Selection Sort", y: 0.8  },
+            { label: "Merge Sort",  y: 0.6 },
+            { label: "Heap Sort",  y: 0.4  },
+            { label: "Quick Sort",  y: 0.4  },
+            { label: "3 Way Quick Sort",  y: 0.5  }
         ]
       }
       ]
