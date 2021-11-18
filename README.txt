@@ -8,4 +8,7 @@
 6.	Along with the sorted data the time taken for the execution in seconds is also displayed in the textbox given.
 
 
+The script for the index.html is there in \scripts\index.js for verification
+
+
 The template for the Project has been taken from Templateflip(https://templateflip.com/templates/right-resume/)
