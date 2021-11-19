@@ -4,7 +4,12 @@ var dropdown=document.getElementById("sort");
 var array=[];
 var display_tb=document.getElementById("display_text");
 var opp=document.getElementById("opp");
+var alert=document.getElementById("alert");
+alert.classList.add("Displaynone");
  btn.disabled=false;
+ display_tb.classList.remove("alert");
+ btn.classList.add("btn-primary")
+ btn.classList.remove("btn-danger")
 
 
 var Insersion = (array) => {
@@ -94,7 +99,7 @@ var Bubble=(arr)=>{
         
     }
 
-    function MergeSort(array) {
+    var MergeSort=(array)=>{
         const half = array.length / 2
         
         if(array.length == 1){
@@ -107,7 +112,7 @@ var Bubble=(arr)=>{
 
     
     
-    function Merge(a, b) {
+    var Merge=(a, b)=>{
     let c = []
     while (a.length && b.length) {
         if (a[0] < b[0]) {
@@ -220,12 +225,17 @@ var GetMedian=(left,right,middle)=>{
 
 btn.addEventListener("click",()=>{
     btn.disabled=true;
+    btn.classList.remove("btn-primary")
+    btn.classList.add("btn-danger")
+    alert.classList.remove("Displaynone");
     var dropdown_value=dropdown.value;
     var input=document.getElementById("sort-textbox");
     // opdiv.classList.remove("Displaynone")
     if(dropdown_value=="NULL")
     {
+        display_tb.classList.add("alert")
         display_tb.value="Please select an appropriate Algorithim"
+        
     }
     array=input.value.trim().split(" ");
     

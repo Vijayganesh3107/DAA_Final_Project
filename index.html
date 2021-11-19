@@ -18,6 +18,7 @@
     <link href="css/aos.css?ver=1.2.0" rel="stylesheet">
     <link href="css/main.css?ver=1.2.0" rel="stylesheet">
     <script src="./scripts/index.js" defer></script>
+    <link rel="stylesheet" href="./css/index.css">
     <noscript>
       <style type="text/css">
         [data-aos] {
@@ -52,7 +53,7 @@
   <div class="about-section pt-4 px-3 px-lg-4 mt-1">
     <div class="row">
       <div class="">
-        <h2 class="h3 mb-3">Data Comparison  Table( Runtime vs Size of Input)</h2>
+        <h2 class="h3 mb-3">Data Comparison  Table( Avg. Runtime vs Size of Input)</h2>
       </div>
       <div class="row">
       <div class="col-sm-12 col-xs-8 col-6">
@@ -62,13 +63,13 @@
               Type of Sorting
             </th>
             <th>
-              Avg Time Small Data(n=15)
+              Small Data(n=15)
             </th>
             <th>
-              Avg Time Average Data(n=40)
+              Average Data(n=40)
             </th>
             <th>
-              Avg Time Large Data(n=100)
+              Large Data(n=100)
             </th>
           </tr>
           <tr>
@@ -181,6 +182,9 @@
     <div class="col-4 text-center">
     <button class="btn btn-primary mt-2" id="sort_btn">Sort</button>
     <button class="btn btn-danger mt-2"  id="resrt_btn">Reset</button>
+  </div>
+    <div class="row">
+    <p class="Displaynone alert col-12" id="alert">*After sorting please press the reset button to sort for a different algorithm</p>
   </div>
 </div>
 <div class="row">

@@ -12,3 +12,6 @@ The script for the index.html is there in \scripts\index.js for verification
 
 
 The template for the Project has been taken from Templateflip(https://templateflip.com/templates/right-resume/)
+
+Note:The time present in the tables are average times as the algorithms are not producing the same exceution time for all execution so I have taken 5 exectutions of each algorithm
+and took average of them
